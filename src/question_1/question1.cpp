@@ -7,9 +7,13 @@ bool test_config()
 
 string transcribe_dna_into_rna (string dna)
 {
-    dna[2] = 'U';
-    dna[8] = 'U';
-    dna[9] = 'U';
+    string remove = "T";
+    string replace = "U";
+
+    size_t pos;
+    while ((pos = dna.find(remove)) != std::string::npos) {
+        dna.replace(pos, 1, replace);
+    }
 
     return dna;
 }

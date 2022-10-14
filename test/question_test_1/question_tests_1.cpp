@@ -11,4 +11,7 @@ TEST_CASE("test")
 	REQUIRE(test_config() == true);
 }
 
-//
+TEST_CASE("DNA to RNA")
+{
+	REQUIRE(string(transcribe_dna_into_rna("GATGGAACTTGACTACGTAAATT")) == ("GAUGGAACUUGACUACGUAAAUU"));
+}

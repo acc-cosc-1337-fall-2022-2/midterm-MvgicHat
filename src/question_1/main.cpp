@@ -3,8 +3,8 @@
 int main()
 {
     string dna;
-    string transcribe_dna_into_rna ("GATGGAACTTGACTACGTAAATT");
-    cout<<"The rna is: "<<dna;
+    string rna = transcribe_dna_into_rna ("GATGGAACTTGACTACGTAAATT");
+    cout<<rna;
 
     return 0;
 }
