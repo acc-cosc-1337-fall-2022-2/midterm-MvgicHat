@@ -11,7 +11,7 @@ TEST_CASE("test")
 	REQUIRE(test_config() == true);
 }
 
-TEST_CASE("Palindrome machine")
+TEST_CASE("is_palimdrome Function Test")
 {
 	REQUIRE(is_palindrome("abcba") == true);
 	REQUIRE(is_palindrome("abc") == false);

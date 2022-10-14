@@ -14,9 +14,8 @@ int main()
         else {
             cout << "False (it is not a palindrome)";
         } 
-        cout<<"\nEnter any character to repeat this program, or enter Q to quit: ";
+        cout<<"\nEnter Q/q to quit, any other character to try again: ";
         cin>>menu_selection;
         } while (menu_selection != 'Q' && menu_selection != 'q');
- 
     return 0;
 }

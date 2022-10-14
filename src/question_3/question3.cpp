@@ -19,6 +19,5 @@ bool is_palindrome(const string palindrome)
         low++;
         high--;
     }
- 
     return true;
 }

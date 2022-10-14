@@ -14,6 +14,5 @@ string transcribe_dna_into_rna (string dna)
     while ((pos = dna.find(remove)) != std::string::npos) {
         dna.replace(pos, 1, replace);
     }
-
     return dna;
 }

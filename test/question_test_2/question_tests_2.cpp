@@ -11,7 +11,7 @@ TEST_CASE("test")
 	REQUIRE(test_config() == true);
 }
 
-TEST_CASE("Test KE Calculator")
+TEST_CASE("Test K/E Calculator")
 {
 	REQUIRE(get_kinetic_energy(10, 9) == 405);
 	REQUIRE(get_kinetic_energy(20, 5) == 250);
